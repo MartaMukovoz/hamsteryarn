@@ -1,14 +1,11 @@
 body {
   margin: 0;
   min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/knitting-balls.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
 .container {
@@ -18,8 +15,14 @@ body {
 }
 
 .page-header {
-  margin: 0 0 160px;
   padding: 32px 0 32px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+
 }
 
 .page-header .container,
@@ -29,11 +32,17 @@ body {
 }
 
 .page-header a {
-  margin-left: 56px;
-  color: #288be6;
+  margin-right: 56px;
+  color: #237564;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  display: flex;
+  align-items: center;
+}
+
+.page-header a svg {
+  margin-right: 5px;
 }
 
 .header-email {
@@ -47,7 +56,19 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  background-color: #f2f4f6;
+  background-image: url("img/knitting-balls.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  min-height: 60vh;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .hero-image .container {
@@ -57,10 +78,9 @@ body {
 
 .heading {
   margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 88px;
   line-height: 96px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .hero-image p {
@@ -75,10 +95,8 @@ body {
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 64px;
   line-height: 80px;
-  font-weight: 400;
   text-align: center;
 }
 
