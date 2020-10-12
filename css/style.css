@@ -1,7 +1,9 @@
+@import "./fonts.css";
+
 body {
   margin: 0;
   min-width: 960px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
@@ -47,17 +49,17 @@ body {
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+  background-image: url("../img/icon-email-header.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("../img/icon-phone-header.svg");
 }
 
 .hero-image {
   background-color: #f2f4f6;
-  background-image: url("img/knitting-balls.jpg");
+  background-image: url("../img/knitting-balls.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -130,19 +132,19 @@ body {
 }
 
 .skill-star {
-  background-image: url("img/star.svg");
+  background-image: url("../img/star.svg");
 }
 
 .skill-rating {
-  background-image: url("img/rating.svg");
+  background-image: url("../img/rating.svg");
 }
 
 .skill-sale {
-  background-image: url("img/hot-sale.svg");
+  background-image: url("../img/hot-sale.svg");
 }
 
 .skill-clock {
-  background-image: url("img/clock.svg");
+  background-image: url("../img/clock.svg");
 }
 
 .level {
@@ -219,12 +221,12 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("../img/icon-email-footer.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  background-image: url("../img/icon-phone-footer.svg");
 }
 
 .page-header__content {
